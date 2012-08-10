@@ -1,0 +1,29 @@
+           _.====.._
+         ,:._       ~-_
+             `\        ~-_
+    SiNE       |          `.
+             ,/             ~-_
+ ..--..__..-''                 ~~--..__...
+	
+	a simulated naval environment
+	by Krispijn A. Scholte
+	August 2012
+
+
+[Description]
+SiNE is a platform for the evaluation of sensor models, command and control (C2) algorithms(1,2,3) and data structures in a naval environment. It features object modeling based on the work of Dr. F. Bolderheij(1) and is primarily intended as a means to simulate scenarios for the author's MSc thesis. It is a data generation application that sends it's simulation output (object positiions and so on) to a network port. This means a client application is needed to process this data, which is not included in this package.
+
+
+[Requirements]
+1. A Java IDE. It is being developed using Oracle JDeveloper 11g R2
+2. A MySQL server (v5.5). Necessary creation queries will be put in the "MySQL"
+	directory of the project.
+3. MySQL JDBC Connector ( http://www.mysql.com/products/connector/ )
+
+
+
+
+References:
+1. Bolderheij, F. (2007, November). Mission Driven Sensor Management: Analysis, design, implementation and simulation. Delft University of Technology.
+2. van Norden, W. L., & Jonker, C. (n.d.). Utilizing classifier conflict for sensor management and user interaction. In J. Dezert & F. Smarandache (Eds.), Advances and Applications of DSmT for Information Fusion, Collected Works, volume 3. Rehoboth (MA): American Research Press.
+3. Scholte, K. A., & van Norden, W. L. (2009). Applying the PCR6 rule of combination in real time classification systems. Proceeding of IEEE Fusion conference.
